@@ -19,7 +19,7 @@ const validate = function () {
     }
 
     if (content.value == "" || String(content.value).split(' ').length < 5) {
-        window.alert("Please write atleast 5 words.");
+        window.alert("Content needs atleast 5 words.");
         content.focus();
         return false;
     }
