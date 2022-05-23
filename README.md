@@ -38,17 +38,18 @@ To view the screens, **right-click** on **home.html** on select **Open with Live
   ### Blog Details Page (can be visited by clicking on each blog)
   ![image](https://user-images.githubusercontent.com/102161717/169791717-e6f87435-f17f-41d2-bbe4-72064ef5ed45.png)
 <br>
-  ### Blog Form Page
+  ## Blog Form Page
+  ### **Form is validated and alerts are shown for the errors!**
   ![image](https://user-images.githubusercontent.com/102161717/169792040-811dd48b-f7a6-4aa6-ae33-e0275f58ba92.png)
   <br>
   #### Due to the lack of a **Backend**, the data is stored in the RAM and can be accessed, but it's not persistant.
 
   ## All the screens are responsive.
-  #### Home screen (Responsive)
+  ### Home screen (Responsive)
   ![image](https://user-images.githubusercontent.com/102161717/169792936-bacad729-018f-44bf-a81d-a501f40b1ebf.png)
   <br>
-  #### Blog Details screen (Responsive)
+  ### Blog Details screen (Responsive)
   ![image](https://user-images.githubusercontent.com/102161717/169793169-a1f221f6-3c55-42f0-9108-79c8405652b5.png)
   <br>
-  #### Blog Form screen (Responsive)
+  ### Blog Form screen (Responsive)
   ![image](https://user-images.githubusercontent.com/102161717/169793394-6c2a867c-0b39-4590-a4f8-0dbd9c9989bd.png)
