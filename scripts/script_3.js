@@ -4,6 +4,7 @@ const content = document.forms["form"]["content"];
 const publisher = document.forms["form"]["publisher"];
 const category = document.forms["form"]["category"];
 
+//Validating the form
 const validate = function () {
 
     if (title.value == "") {
@@ -40,6 +41,7 @@ const validate = function () {
 }
 
 document.getElementById('create-btn').addEventListener("click", function () {
+    //If form is valid, saving the data in the json file.
     if (validate()) {
         const date = new Date();
         const id = data.length + 1;
