@@ -27,8 +27,6 @@ For development, you will only **Visual Studio Code** and **Live server extensio
     $ git clone https://github.com/shivam-singh-bct/FE_POC
     $ cd FE_POC    
 
----
-<br>
 ## Project Overview
 To view the screens, **right-click** on **home.html** on select **Open with Live Server**.
   
@@ -36,7 +34,7 @@ To view the screens, **right-click** on **home.html** on select **Open with Live
   ![image](https://user-images.githubusercontent.com/102161717/169790646-d78a4beb-1e79-40f8-ad43-98b98e41f27f.png)
   ### **This page shows all the blogs available and each one of them can be visited.**
   You can click on **Write Your Blog** to reach the **Blog Form** page.
-  <br>
+  
   ### Blog Details Page (can be visited by clicking on each blog)
   ![image](https://user-images.githubusercontent.com/102161717/169791717-e6f87435-f17f-41d2-bbe4-72064ef5ed45.png)
 <br>
