@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+/* Header */
+
+.header {
+    background-color: #413F42;
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    height: 40px;
+    align-items: center;
+}
+
+.header a:hover,
+.header div:hover {
+    background-color: black;
+}
+
+.header-item {
+    height: inherit;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+
+
+/* Main */
+
+.blog-instructions,
+.blog-form {
+    height: 100%;
+    display: inline-block;
+}
+
+.container {
+    height: 65vh;
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    justify-items: center;
+}
+
+.blog-instructions,
+.blog-form {
+    border: 0px white;
+    border-radius: 4px;
+    width: 95%;
+    height: 100%;
+    padding: 1.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.blog-instructions-header,
+.instructions-header,
+.instructions p {
+    margin-bottom: 1.2rem;
+}
+
+.blog-form label {
+    font-weight: bold;
+}
+
+.blog-form input,
+.blog-form textarea {
+    margin-top: 0.2rem;
+    width: 100%;
+    border-radius: 0.2rem;
+}
+
+.blog-form input {
+    height: 1.6rem;
+    font-size: 1.2rem;
+}
+
+.blog-form textarea {
+    font-size: 1.2rem;
+    height: 12rem;
+}
+
+.blog-title-container,
+.blog-content-container,
+.blog-author-container,
+.published-by-container,
+.category-container {
+    margin-bottom: 0.8rem;
+}
+
+.published-by-container {
+    margin-bottom: 2.8rem;
+}
+
+.blog-form-button-wrapper {
+    border-top: lightgray solid 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.6rem;
+}
+
+
+#cancel-btn,
+#create-btn {
+    margin-top: 0.6rem;
+    border: 3px outset #807f83;
+    border-radius: 0.4rem;
+    color: white;
+    padding: 0.3rem;
+    font-size: 0.85rem;
+    width: 3.6rem;
+}
+
+#cancel-btn {
+    background-color: red;
+}
+
+#create-btn {
+    cursor: pointer;
+    margin-left: 0.3rem;
+    background-color: green;
+}
+
+
+/* Media queries */
+
+@media (max-width: 85.3em) {
+    .header {
+        gap: 0.1em;
+    }
+
+    .header-item {
+        padding: 0.7rem;
+        font-size: 0.9em;
+    }
+
+}
+
+@media (max-width: 75em) {
+    .header {
+        gap: 0.1em;
+    }
+
+    .header-item {
+        padding: 0.7rem;
+        font-size: 0.9em;
+    }
+
+}
+
+@media (max-width: 60em) {
+
+    .container {
+        height: 55vh;
+    }
+
+    .blog-instructions-header h2 {
+        font-size: 1.4rem;
+    }
+
+    .instructions-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .instructions p {
+        margin-bottom: 0.8rem;
+    }
+
+    .blog-form textarea {
+        font-size: 1.2rem;
+        height: 12rem;
+    }
+
+    .blog-title-container,
+    .blog-content-container,
+    .blog-author-container,
+    .published-by-container,
+    .category-container {
+        margin-bottom: 0.6rem;
+    }
+
+    .published-by-container {
+        margin-bottom: 2.4rem;
+    }
+}
+
+@media (max-width: 40em) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        height: 100%;
+    }
+
+    .blog-form textarea {
+        font-size: 1rem;
+        height: 8rem;
+    }
+
+    .blog-instructions,
+    .blog-form {
+        width: 95%;
+        height: 100%;
+        padding: 1.5rem 1rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
+}

@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #413F42;
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    height: 40px;
+    align-items: center;
+}
+
+.header a:hover,
+.header div:hover {
+    background-color: black;
+}
+
+.header-item {
+    height: inherit;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+
+/* main */
+
+.main {
+    margin: 0 auto;
+    width: 60%;
+    height: 100vh;
+    padding: 2rem 3rem 2rem 3rem;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    background-color: #413F42;
+}
+
+.blog-category-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.blog-header {
+    margin-bottom: 1.5rem;
+}
+
+#category {
+    display: inline-block;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.blog-category {
+    color: orange;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.blog-header span {
+    display: inline-block;
+}
+
+
+.blog-author-date-container {
+    display: flex;
+    gap: 0.6rem;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 1.2rem;
+}
+
+.blog-author {
+    color: red;
+    text-transform: uppercase;
+    padding-bottom: 0.6rem;
+}
+
+.blog-author,
+.published-date {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.blog-content {
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+#sp-1 {
+    color: #413F42;
+    font-weight: bold;
+}
+
+#sp-2 {
+    font-weight: 500;
+    color: cornflowerblue;
+}
+
+/* Media queries */
+
+@media (max-width: 85.3em) {
+    .header {
+        gap: 0.1em;
+    }
+
+    .header-item {
+        padding: 0.7rem;
+        font-size: 0.9em;
+    }
+
+    .main {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 75em) {
+    .header {
+        gap: 0.1em;
+    }
+
+    .header-item {
+        padding: 0.7rem;
+        font-size: 0.9em;
+    }
+
+    .main {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 60em) {
+    .header {
+        gap: 0.1em;
+    }
+
+    .header-item {
+        padding: 0.7rem;
+        font-size: 0.9em;
+    }
+
+    .main {
+        width: 85%;
+    }
+
+    .blog-author-date-container {
+        display: flex;
+        gap: 0.6rem;
+    }
+
+    #flex-container {
+        display: block;
+    }
+
+    .blog-title {
+        font-size: 2.6rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 40em) {
+    .main {
+        width: 85%;
+    }
+
+    .blog-author-date-container {
+        gap: 0.6rem;
+    }
+
+    #flex-container {
+        display: block;
+    }
+
+    .blog-title {
+        font-size: 2.5rem;
+        padding-bottom: 2.4rem;
+    }
+}
+
+@media (max-width: 40em) {
+
+    .header-item {
+        font-size: 1em;
+    }
+
+    .main {
+        width: 90%;
+    }
+
+    .blog-author-date-container {
+        justify-content: space-between;
+        gap: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    #category {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .blog-category {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 30em) {
+
+
+    .main {
+        width: 98%;
+    }
+
+    .blog-author-date-container {
+        display: block;
+        gap: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    #category,
+    .blog-category {
+        font-weight: 400;
+        font-size: 0.85rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .blog-title {
+        font-size: 2rem;
+        padding-bottom: 2.6rem;
+    }
+
+    .blog-author,
+    .published-date {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+}
